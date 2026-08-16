@@ -1,0 +1,74 @@
+{% assign abstracts_expanded = false %}
+{% if include.abstracts == "expanded" %}
+  {% assign abstracts_expanded = true %}
+{% endif %}
+
+{% assign category_keys = "jmp|work-in-progress|policy-work" | split: "|" %}
+{% assign category_labels = "Job Market Paper|Selected Work in Progress|Policy Work" | split: "|" %}
+
+<div class="research-list">
+  {% for category_key in category_keys %}
+    {% assign category_index = forloop.index0 %}
+    {% assign category_papers = site.data.research | where: "category", category_key %}
+
+    <section class="research-category research-category--{{ category_key }}" aria-labelledby="research-category-{{ category_key }}">
+        {% if include.context == "home" %}
+          <h3 class="research-category__title" id="research-category-{{ category_key }}">{{ category_labels[category_index] }}</h3>
+        {% else %}
+          <h2 class="research-category__title" id="research-category-{{ category_key }}">{{ category_labels[category_index] }}</h2>
+        {% endif %}
+
+        {% if category_papers.size > 0 %}
+          <div class="research-category__papers">
+          {% for paper in category_papers %}
+            <article class="research-entry">
+              {% assign title_url_is_external = false %}
+              {% if paper.title_url contains "://" %}{% assign title_url_is_external = true %}{% endif %}
+
+              {% assign paper_heading_tag = "h3" %}
+              {% if include.context == "home" %}{% assign paper_heading_tag = "h4" %}{% endif %}
+              <{{ paper_heading_tag }} class="research-entry__title">
+                {% if paper.title_url %}<a href="{% if title_url_is_external %}{{ paper.title_url }}{% else %}{{ paper.title_url | relative_url }}{% endif %}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}{% if paper.coauthors and paper.coauthors.size > 0 %}<span class="research-entry__coauthors-inline"> (with {% for coauthor in paper.coauthors %}{% if coauthor.url %}<a href="{{ coauthor.url }}">{{ coauthor.name }}</a>{% else %}{{ coauthor.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %})</span>{% endif %}
+              </{{ paper_heading_tag }}>
+
+              {% if paper.status or paper.status_link %}
+                <p class="research-entry__status">
+                  {% if paper.status %}{{ paper.status }}{% endif %}
+                  {% if paper.status_link %}
+                    {% assign status_link_is_external = false %}
+                    {% if paper.status_link.url contains "://" %}{% assign status_link_is_external = true %}{% endif %}
+                    <a href="{% if status_link_is_external %}{{ paper.status_link.url }}{% else %}{{ paper.status_link.url | relative_url }}{% endif %}">{{ paper.status_link.label }}</a>
+                  {% endif %}
+                </p>
+              {% endif %}
+
+              {% assign has_links = false %}
+              {% if paper.links and paper.links.size > 0 %}{% assign has_links = true %}{% endif %}
+
+              {% if has_links or paper.abstract %}
+                <div class="research-entry__actions">
+                  {% for link in paper.links %}
+                    {% assign link_is_external = false %}
+                    {% if link.url contains "://" %}{% assign link_is_external = true %}{% endif %}
+                    <a href="{% if link_is_external %}{{ link.url }}{% else %}{{ link.url | relative_url }}{% endif %}">{{ link.label }}</a>
+                  {% endfor %}
+
+                  {% if paper.abstract %}
+                    <details class="research-entry__abstract{% if has_links %} research-entry__abstract--after-links{% endif %}"{% if abstracts_expanded %} open{% endif %}>
+                      <summary>Abstract</summary>
+                      <div class="research-entry__abstract-text">
+                        {{ paper.abstract | markdownify }}
+                      </div>
+                    </details>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </article>
+          {% endfor %}
+          </div>
+        {% else %}
+          <p class="research-category__empty">No additional papers are listed in the current CV.</p>
+        {% endif %}
+      </section>
+  {% endfor %}
+</div>

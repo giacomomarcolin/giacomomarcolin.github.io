@@ -1,0 +1,89 @@
+- category: jmp
+  title: "Fertility-Based Discrimination: Evidence from the Pregnancy Discrimination Act of 1978"
+  title_url: "/files/papers/digiovanpaolo_marcolin_pda.pdf"
+  coauthors:
+    - name: "Andrea Di Giovan Paolo"
+      url: "https://sites.google.com/view/andreadigiovanpaolo/home"
+  abstract: >-
+    Identifying the role of expected fertility as a driver of gender
+    discrimination is crucial to guide policy solutions, but is hindered by the
+    fact that pregnancy discrimination is typically addressed by broader
+    gender-discrimination policies. This was not the case in the U.S., where
+    before the 1978 Pregnancy Discrimination Act (PDA) pregnancy constituted a
+    legal exception to existing gender discrimination laws. Exploiting states’
+    staggered adoption of laws similar to the PDA, we use
+    difference-in-differences estimates based on survey data to show that the
+    PDA reduced employment and hiring of women of fertile age, while having no
+    detectable effect on dismissals. Our estimates imply that nearly 30% of the
+    gender employment gap at the time was due to potential fertility. A simple
+    search-and-matching model explains these results: by raising firing costs
+    for discriminating employers, the PDA discouraged hiring but was not
+    enforced strongly enough to prevent dismissals of pregnant employees.
+    Finally, we show that pre-existing equal pay laws limited wage adjustments,
+    exacerbating the negative effect on employment.
+  links: []
+
+- category: work-in-progress
+  title: "Pregnancy Discrimination via Temporary Jobs"
+  coauthors:
+    - name: "Sabrina Di Addario"
+      url: "https://sites.google.com/site/sabrinadiaddario/"
+    - name: "Matteo Sartori"
+      url: "https://www.matteosartori.it/"
+  status: "Project awarded a"
+  status_link:
+    label: "VisitINPS Fellowship 2026"
+    url: "https://www.inps.it/it/it/dati-e-bilanci/attivit--di-ricerca/programma-visitinps-scholars/bandi-per-le-borse-di-studio.html"
+  links: []
+
+- category: work-in-progress
+  title: "The Impact of Tax Office Aggressiveness on Firms"
+  coauthors:
+    - name: "Mario Cannella"
+      url: "https://sites.google.com/view/mariocannella/home"
+  links: []
+
+- category: work-in-progress
+  title: "Managing Tax Collection"
+  coauthors:
+    - name: "Simone Paci"
+      url: "https://www.simonepaci.com/"
+    - name: "Silvia Vannutelli"
+      url: "https://sites.google.com/view/silviavannutelli/home"
+  links: []
+
+- category: work-in-progress
+  title: "Gig Work as Income Insurance during Unemployment: Evidence from Germany"
+  title_url: "https://doi.org/10.2139/ssrn.4085808"
+  coauthors:
+    - name: "Valentin Kecht"
+      url: "https://www.valentinkecht.com/home"
+  abstract: >-
+    Despite the rapid growth of the gig economy, there is limited evidence on
+    its impact on the labor force. This paper shows that gig work can act as a
+    source of a supplementary income during job transitions. Matching a large
+    sample of administrative employment data with information on platform
+    entry, we demonstrate that individuals tend to take up gig work following a
+    job separation when the opportunity arises. The effects on labor markets
+    are persistent and vary across socioeconomic dimensions, while for the
+    individual workers gig work is only a transitory occupation. Our
+    identification relies on a difference-in-differences strategy, exploiting
+    the staggered entry of gig platforms across German districts. We find some
+    evidence of substitution with other forms of employment, but detect no
+    reduction in receipt of unemployment benefits, suggesting that gig work
+    does not replace traditional unemployment insurance schemes. However, we
+    observe increased job-seeking activity and participation in active labor
+    market policies in response to platform availability. Our results partly
+    contrast existing evidence, highlighting the role of contextual factors in
+    designing adequate labor market policies.
+  links: []
+
+- category: policy-work
+  title: "Il funzionamento della giustizia tributaria in Italia: evidenza dai microdati"
+  title_url: "https://www.bancaditalia.it/pubblicazioni/qef/2025-0980/index.html"
+  coauthors:
+    - name: "Mario Cannella"
+      url: "https://sites.google.com/view/mariocannella/home"
+    - name: "Maria Enza Castiglia"
+  status: "Revise & Resubmit at Politica Economica - Journal of Economic Policy"
+  links: []

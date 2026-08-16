@@ -1,0 +1,17 @@
+title: Giacomo Marcolin
+description: Personal website
+lang: en
+url: "https://giacomomarcolin.github.io"
+baseurl: ""
+
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
