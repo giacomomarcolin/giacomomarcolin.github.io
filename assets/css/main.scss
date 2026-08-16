@@ -355,22 +355,21 @@ p {
 }
 
 .research-entry__actions {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: var(--space-xs) 0;
   font-size: 0.88rem;
 }
 
-.research-entry__actions > a + a::before,
-.research-entry__abstract--after-links summary::before {
+.research-entry__actions > a + a::before {
   margin-inline: var(--space-sm);
   color: var(--color-muted);
   content: "\00b7";
 }
 
 .research-entry__abstract {
-  display: contents;
+  display: block;
+}
+
+.research-entry__abstract--after-links {
+  margin-top: var(--space-xs);
 }
 
 .research-entry__abstract summary {
