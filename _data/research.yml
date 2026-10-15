@@ -1,5 +1,5 @@
 - category: jmp
-  title: "Fertility-Based Discrimination: Evidence from the Pregnancy Discrimination Act of 1978"
+  title: "Fertility-Based Discrimination"
   title_url: "/files/papers/digiovanpaolo_marcolin_pda.pdf"
   coauthors:
     - name: "Andrea Di Giovan Paolo"
@@ -37,7 +37,7 @@
   links: []
 
 - category: work-in-progress
-  title: "The Impact of Tax Office Aggressiveness on Firms"
+  title: "Heterogeneous Enforcement Within a Common Tax System: Tax Office Aggressiveness and Firm Outcomes"
   coauthors:
     - name: "Mario Cannella"
       url: "https://sites.google.com/view/mariocannella/home"
@@ -50,6 +50,13 @@
       url: "https://www.simonepaci.com/"
     - name: "Silvia Vannutelli"
       url: "https://sites.google.com/view/silviavannutelli/home"
+  links: []
+
+- category: work-in-progress
+  title: "Discrimination by Proxy"
+  coauthors:
+    - name: "Andrea Di Giovan Paolo"
+      url: "https://sites.google.com/view/andreadigiovanpaolo/home"
   links: []
 
 - category: work-in-progress
