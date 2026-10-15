@@ -5,22 +5,22 @@
     - name: "Andrea Di Giovan Paolo"
       url: "https://sites.google.com/view/andreadigiovanpaolo/home"
   abstract: >-
-    Identifying the role of expected fertility as a driver of gender
-    discrimination is crucial to guide policy solutions, but is hindered by the
-    fact that pregnancy discrimination is typically addressed by broader
-    gender-discrimination policies. This was not the case in the U.S., where
-    before the 1978 Pregnancy Discrimination Act (PDA) pregnancy constituted a
-    legal exception to existing gender discrimination laws. Exploiting states’
-    staggered adoption of laws similar to the PDA, we use
-    difference-in-differences estimates based on survey data to show that the
-    PDA reduced employment and hiring of women of fertile age, while having no
-    detectable effect on dismissals. Our estimates imply that nearly 30% of the
-    gender employment gap at the time was due to potential fertility. A simple
-    search-and-matching model explains these results: by raising firing costs
-    for discriminating employers, the PDA discouraged hiring but was not
-    enforced strongly enough to prevent dismissals of pregnant employees.
-    Finally, we show that pre-existing equal pay laws limited wage adjustments,
-    exacerbating the negative effect on employment.
+    We study employer discrimination based on expectations about women’s future
+    fertility. The identification challenge is that expectations about
+    fertility cannot be varied independently of the characteristics from which
+    employers infer them. We show that discrimination can be identified from
+    variation in employers’ cost of future fertility, without requiring
+    variation in fertility expectations. We exploit the Pregnancy
+    Discrimination Act of 1978, which first provided federal employment
+    protection to pregnant workers, raising firms’ expected costs of employing
+    women more likely to become pregnant. Using a difference-in-differences
+    design comparing newly affected states with states that already had
+    comparable protections, we find that the PDA reduced employment among
+    women of childbearing age by 6.6%, primarily through lower hiring. The
+    decline is concentrated among women with higher predicted future fertility,
+    while employment of men and older women is largely unaffected. Our
+    estimates imply that expected-fertility discrimination accounts for at
+    least 27% of the observed gender employment gap.
   links: []
 
 - category: work-in-progress
