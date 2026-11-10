@@ -36,8 +36,9 @@
     url: "https://www.inps.it/it/it/dati-e-bilanci/attivit--di-ricerca/programma-visitinps-scholars/bandi-per-le-borse-di-studio.html"
   links: []
 
-- category: work-in-progress
+- category: working-papers
   title: "Heterogeneous Enforcement Within a Common Tax System: Tax Office Aggressiveness and Firm Outcomes"
+  title_url: "/files/papers/marcolin_tax_aggressiveness_draft.pdf"
   coauthors:
     - name: "Mario Cannella"
       url: "https://sites.google.com/view/mariocannella/home"
@@ -83,6 +84,15 @@
     market policies in response to platform availability. Our results partly
     contrast existing evidence, highlighting the role of contextual factors in
     designing adequate labor market policies.
+  links: []
+
+- category: work-in-progress
+  title: "Performance-Based Pay and Promotions in the Public Sector"
+  coauthors:
+    - name: "Mario Cannella"
+      url: "https://sites.google.com/view/mariocannella/home"
+    - name: "Devis Decet"
+      url: "https://devisdecet.com/"
   links: []
 
 - category: policy-work
