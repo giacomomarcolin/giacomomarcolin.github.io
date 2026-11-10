@@ -42,6 +42,23 @@
   coauthors:
     - name: "Mario Cannella"
       url: "https://sites.google.com/view/mariocannella/home"
+  abstract: >-
+    We study differences in enforcement behavior across tax offices and their effects on firms.
+    Using administrative data on the universe of tax litigation involving Italian corporations,
+    we construct a novel measure of enforcement behavior: the propensity to appeal judgments
+    in favor of firms, adjusting for case, firm, and court characteristics. Appeals prolong
+    litigation and raise costs for firms, and reveal how aggressively offices pursue contested
+    tax claims. We document substantial within-province variation: moving from the least to
+    the most aggressive office raises the probability of appeal by 18.7 percentage points on
+    average. More aggressive offices may affect firms beyond litigation by increasing
+    administrative burdens and strengthening deterrence against tax evasion. To estimate the
+    effects of office aggressiveness, we exploit a reform that centralized enforcement and
+    changed firms' assigned offices. We find substantial negative effects concentrated among
+    more vulnerable firms and in sectors with greater opportunities for tax evasion. Among
+    smaller and liquidity-constrained firms, a 10-percentage-point increase in aggressiveness
+    reduces revenues by 3–4% and increases cumulative exit probabilities by 0.3–0.9 percentage
+    points. Overall, our findings highlight the real economic consequences of differences in
+    tax enforcement.
   links: []
 
 - category: work-in-progress
