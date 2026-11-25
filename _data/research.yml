@@ -85,8 +85,8 @@
     discriminatory from legitimate uses of proxies, providing a basis for
     detecting and quantifying discrimination by proxy. Using the framework, we
     first show that standard tests of discrimination fail to detect discrimination
-    by proxy. Standard tests of disparate treatment are not design to capture this
-    form of discrimination: they condition on observables and thus miss
+    by proxy. Traditional tests of disparate treatment are not designed to capture
+    this form of discrimination: they condition on observables and thus miss
     differential treatment across them. Tests of disparate impact can capture the
     resulting disparities, but cannot distinguish discrimination from the
     legitimate use of these observables. We then establish conditions under which
