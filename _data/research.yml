@@ -64,12 +64,30 @@
 
 - category: working-papers
   title: "Outsourcing Tax Collection"
+  title_url: "/files/papers/outsourcing_tax.pdf"
   coauthors:
     - name: "Simone Paci"
       url: "https://www.simonepaci.com/"
     - name: "Silvia Vannutelli"
       url: "https://sites.google.com/view/silviavannutelli/home"
   presentations: "Stanford Empirical Management Conference (2026)"
+  abstract: >-
+    Can private firms strengthen the fiscal capacity of the state? While theories
+    of government outsourcing have largely focused on public service provision,
+    less is known about delegating core state functions, such as tax collection,
+    where private contractors must exercise public authority and enforce
+    obligations against citizens’ interests. We study this question using unique
+    administrative data on Italian municipalities and their tax outsourcing
+    contracts. We show that the decision to outsource reflects economic
+    considerations, such as the comparative advantages of public and private
+    provision, economies of scale, administrative capacity, and local market
+    conditions. Outsourcing increases tax assessments and revenues, particularly
+    where governments face greater administrative constraints and where tax
+    collection activities are more contractible. However, these fiscal gains come
+    at a political cost: outsourcing reduces the probability that incumbent
+    politicians are reelected. Our findings highlight how the boundaries of
+    government shape fiscal capacity and the trade-offs involved in delegating
+    core state functions to private firms.
   links: []
 
 - category: work-in-progress
